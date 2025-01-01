@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.List;
 
 //Descending sort using Comparator with using lambda function
-public class Main {
+public class ListComparatorDemo {
     public static void main(String[] args) {
         List<Integer> list = new ArrayList<>();
 
