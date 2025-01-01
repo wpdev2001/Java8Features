@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.List;
 
 public class Main {
-    
+
     public static void main(String[] args) {
 
         List<Student> slist = new ArrayList<>();
@@ -17,7 +17,7 @@ public class Main {
 
         Collections.sort(slist,(a,b) -> b.getRno() - a.getRno());
 
-        System.out.println("Student list before sorting : " + slist);
+        System.out.println("Student list after sorting in descending : " + slist);
 
     }
 }
