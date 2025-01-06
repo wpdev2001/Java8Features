@@ -1,3 +1,7 @@
+/*
+All fields declared in an interface are implicitly public, static, and final (i.e., constants).
+They must be initialized when declared.
+ */
 interface Parent{
      default void sayHello(){
          System.out.println("Hello");
